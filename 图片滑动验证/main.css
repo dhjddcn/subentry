@@ -1,0 +1,64 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body {
+ background-color: #E8E8E8;
+}
+.container{
+ position: relative;
+}
+#canva{
+ background: indianred;
+}
+  
+#block{
+ position: absolute;
+ left: 0px;
+}
+.refreshIcon{
+ position: absolute;
+ left: 280px;
+ top: 5px;
+ width: 21px;
+ height: 20px;
+ cursor: pointer;
+ background: url(./refresh.png);
+ display: block;
+}
+.verSliderBlock{
+ height: 40px;
+ width: 40px;
+ background-color: #fff;
+ background:url('./right_arrow.png');
+ background-size:100%;
+ box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+ cursor: pointer;
+ position: absolute;
+ text-align: center;
+ line-height: 40px;
+ color: #45494c;
+ font-size: 25px;
+ font-weight: 400;
+ 
+}
+.bar{
+ position: relative;
+ text-align: center;
+ width: 310px;
+ height: 40px;
+ line-height: 40px;
+ margin-top: 15px;
+ background: #f7f9fa;
+ color: #45494c;
+ border: 1px solid #e4e7eb;
+ display: block;
+}
+#bar-mask{
+ position: absolute;
+ left: 0;
+ top: 0;
+ height: 40px;
+ border: 0 solid #1991fa;
+ background: #d1e9fe;
+}
